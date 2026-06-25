@@ -1,0 +1,30 @@
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial;
+}
+
+.profile-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.profile-card{
+    width:500px;
+    background:#1e293b;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+}
+
+.avatar{
+    font-size:80px;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-around;
+    margin-top:30px;
+}

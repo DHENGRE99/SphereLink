@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SphereLink Dashboard</title>
+    <link rel="stylesheet" href="../css/dashboard.css" />
+  </head>
+  <body>
+    <div class="stats-container">
+      <div class="stat-card">
+        <h3>Total Posts</h3>
+        <p id="totalPosts">0</p>
+      </div>
+
+      <div class="stat-card">
+        <h3>Followers</h3>
+        <p id="followers">0</p>
+      </div>
+
+      <div class="stat-card">
+        <h3>Following</h3>
+        <p id="following">0</p>
+      </div>
+    </div>
+
+    <div class="trending">
+
+    <h2>🔥 Trending Topics</h2>
+
+    <ul>
+        <li>#JavaScript</li>
+        <li>#NodeJS</li>
+        <li>#WebDevelopment</li>
+        <li>#SphereLink</li>
+    </ul>
+
+</div>
+
+<div class="suggestions">
+
+<h2>👥 Suggested Creators</h2>
+
+<div class="creator-card">
+
+    <h3>John Developer</h3>
+    <button>Follow</button>
+
+</div>
+
+<div class="creator-card">
+
+    <h3>Sarah UI Designer</h3>
+    <button>Follow</button>
+
+</div>
+
+</div>
+
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h2>SphereLink</h2>
+
+        <ul>
+          <li>🏠 Home</li>
+          <li>👤 Profile</li>
+          <li>🌎 Explore</li>
+          <li onclick="logout()">🚪 Logout</li>
+        </ul>
+      </div>
+
+      <!-- Feed -->
+      <div class="feed">
+        <div class="create-post">
+          <textarea
+            id="postContent"
+            placeholder="What's happening today?"
+          ></textarea>
+
+          <button onclick="createPost()">Post</button>
+        </div>
+
+        <div id="postsContainer"></div>
+      </div>
+
+      <!-- Right Panel -->
+      <div class="right-panel">
+        <div class="card">
+          <h3>Trending Creators</h3>
+
+          <p>🔥 Priyanka</p>
+          <p>🔥 TechSphere</p>
+          <p>🔥 CodeMaster</p>
+        </div>
+
+        <div class="card">
+          <h3>Your Stats</h3>
+
+          <p>Posts: 0</p>
+          <p>Followers: 0</p>
+          <p>Following: 0</p>
+        </div>
+
+        <button onclick="toggleTheme()">🌙 Toggle Theme</button>
+      </div>
+    </div>
+
+    <script src="../js/api.js"></script>
+    <script src="../js/post.js"></script>
+    <script src="../js/dashboard.js"></script>
+  </body>
+</html>

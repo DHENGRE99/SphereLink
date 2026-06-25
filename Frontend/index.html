@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SphereLink</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    color:white;
+    min-height:100vh;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+    color:#38bdf8;
+}
+
+.nav-buttons a{
+    text-decoration:none;
+    margin-left:15px;
+    padding:10px 20px;
+    border-radius:8px;
+    font-weight:600;
+}
+
+.login{
+    color:white;
+    border:1px solid white;
+}
+
+.register{
+    background:#38bdf8;
+    color:white;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px 100px;
+}
+
+.hero-text{
+    max-width:600px;
+}
+
+.hero-text h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero-text span{
+    color:#38bdf8;
+}
+
+.hero-text p{
+    font-size:20px;
+    line-height:1.8;
+    color:#cbd5e1;
+}
+
+.hero-buttons{
+    margin-top:30px;
+}
+
+.hero-buttons a{
+    text-decoration:none;
+    padding:15px 30px;
+    margin-right:15px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.start{
+    background:#38bdf8;
+    color:white;
+}
+
+.explore{
+    border:2px solid white;
+    color:white;
+}
+
+.card{
+    width:320px;
+    background:white;
+    color:black;
+    border-radius:20px;
+    padding:25px;
+    box-shadow:0 0 25px rgba(0,0,0,.3);
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+.card p{
+    margin-bottom:10px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#cbd5e1;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">🌐 SphereLink</div>
+
+    <div class="nav-buttons">
+        <a href="/pages/login.html" class="login">Login</a>
+        <a href="/pages/register.html" class="register">Register</a>
+    </div>
+</nav>
+
+<section class="hero">
+
+    <div class="hero-text">
+        <h1>Connect. Share. <span>Grow.</span></h1>
+
+        <p>
+            SphereLink is a modern social networking platform where users can
+            create posts, follow others, like content, interact through comments,
+            and build meaningful connections.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="/pages/register.html" class="start">
+                Get Started
+            </a>
+
+            <a href="/pages/login.html" class="explore">
+                Login
+            </a>
+        </div>
+    </div>
+
+    <div class="card">
+        <h3>🚀 Platform Features</h3>
+        <p>✅ User Authentication</p>
+        <p>✅ Create & Manage Posts</p>
+        <p>✅ Follow Users</p>
+        <p>✅ Like & Comment System</p>
+        <p>✅ User Profiles</p>
+        <p>✅ Responsive Design</p>
+    </div>
+
+</section>
+
+<footer>
+    © 2026 SphereLink | Social Media Platform
+</footer>
+
+</body>
+</html>
